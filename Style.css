@@ -29,10 +29,14 @@
     text-align: center;
     color: white;
     background-color: crimson;
-    padding: 50px;
+    padding: 100px;
     align-content: center;
     align-self: center;
-    background-color: transparent;
+    background-color: red;
+}
+h1 {
+    background-color: black;
+     
 }
 .charsimg {
     width: 47%;
@@ -40,12 +44,6 @@
     object-fit: contain;
     background-color: blueviolet;
     bottom: auto;
-}
-.charimg h3{
-    background-color: blueviolet;
-}
-.charsdesc h3{
-    background-color: darkorange;
 }
 .chardesc {
     width: 47%;
