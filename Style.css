@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    background-color: darkgrey;
 }
 .flexCentered {
     display: flex;
@@ -19,6 +20,9 @@
 .hi50 a{
     text-decoration: none;
     color: floralwhite;
+    background-color: black;
+    padding: 5px;
+    
 }
 
 .big {
@@ -28,6 +32,7 @@
     padding: 50px;
     align-content: center;
     align-self: center;
+    background-color: transparent;
 }
 .charsimg {
     width: 47%;
@@ -35,6 +40,12 @@
     object-fit: contain;
     background-color: blueviolet;
     bottom: auto;
+}
+.charimg h3{
+    background-color: blueviolet;
+}
+.charsdesc h3{
+    background-color: darkorange;
 }
 .chardesc {
     width: 47%;
@@ -46,7 +57,7 @@
 h5 {
     text-align: center;
     text-shadow: 2px 1px gray;
-    background: linear-gradient(red, crimson, red, crimson, red);
+    background: linear-gradient(darkred, crimson, darkred, crimson, darkred);
     padding: 30px;
     border: 100px;
     width: 65%;
@@ -56,10 +67,11 @@ h5 {
     position: absolute;
     left: -100px;
     animation: slide 5s;
+    background-color: transparent;
 }
 @keyframes slide {
     0% { left: -50}
-    25% { right: 0}
+    25% { left: 500}
     75% { right: 500}
     100% { left: -500}
 }
