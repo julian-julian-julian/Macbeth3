@@ -33,19 +33,22 @@
     width: 47%;
     float: left;
     object-fit: contain;
-    border-image: 
+    background-color: blueviolet;
+    bottom: auto;
 }
 .chardesc {
     width: 47%;
     float: right;
     top: auto;
+    background-color:darkorange;
+    
 }
 h5 {
     text-align: center;
     text-shadow: 2px 1px gray;
     background: linear-gradient(red, crimson, red, crimson, red);
     padding: 30px;
-    border: 100;
+    border: 100px;
     width: 65%;
 }
 #fly {
@@ -55,8 +58,8 @@ h5 {
     animation: slide 5s;
 }
 @keyframes slide {
-    0% { left: 0}
-    25% { left: 1000}
+    0% { left: -50}
+    25% { right: 0}
     75% { right: 500}
     100% { left: -500}
 }
